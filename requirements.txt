@@ -1,1 +1,17 @@
-arcade==2.8.5
+# Project Dependencies for Johnny Bravo 2D Game
+
+This file lists all the necessary Python packages required to run the Johnny Bravo 2D game and its associated components, including animation and joke delivery.
+
+## Core Game Development
+- **arcade==2.8.5**: A modern Python framework for crafting 2D games with a focus on ease of use and performance. It handles graphics, sound, and user input.
+- **pygame==2.5.2**: A popular set of Python modules designed for writing video games. It includes computer graphics and sound libraries.
+
+## Image and Asset Handling
+- **Pillow==10.2.0**: The friendly PIL (Python Imaging Library) fork, providing image processing capabilities for loading and manipulating game assets.
+
+## Networking and Data (Optional, for future enhancements)
+- **requests==2.31.0**: An elegant and simple HTTP library for Python, useful for fetching external data or jokes from an API if the game expands beyond local data.
+
+## Development and Packaging Tools
+- **setuptools==69.0.3**: Tools for building and distributing Python packages.
+- **wheel==0.42.0**: A built-package format for Python, used for faster installations.
